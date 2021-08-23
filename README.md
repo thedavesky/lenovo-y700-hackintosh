@@ -10,7 +10,6 @@
 I have been using Lenovo Y700 as my daily driver since 2016. As of 2018, I am using macOS on this machine as my main system. MacOS runs on it very well and I don't have any crashes or freezes. But in 2021 it doesn't have enough power for my workload and I'm already tired of hackintoshing, so I'm planning switching to MacBook Pro with Apple Silicon at the end of this year.
 
 ## Configuration
-
 |Specifications|Detail|
 |-|-|
 |Computer Model|Lenovo Y700-17ISK|
@@ -23,14 +22,12 @@ I have been using Lenovo Y700 as my daily driver since 2016. As of 2018, I am us
 |Touchpad|Synaptics PS2|
 
 ## Installation
-
-- Set serial numbers in config.plist as per [OpenCore Instal Guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
+- Set serial numbers in config.plist as per [OpenCore Install Guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html).
 - Copy EFI folder to your EFI partition.
 - Install macOS.
 	- After installing macOS I recommend to configure [ALCPlugFix-Swift](https://github.com/black-dragon74/ALCPlugFix-Swift). Lenovo Y700 has a combo jack and macOS doesn't support it out of the box. Prepared configuration files for this program are already in this repository in a folder ALCPlugFix-Swift.
 
 ## Status
-
 - **Discrete GPU** isn't working.
 	- MacOS doesn't support Optimus technology. I disabled dGPU in BIOS settings.
 - **Subwoofer** isn't working.
@@ -39,6 +36,18 @@ I have been using Lenovo Y700 as my daily driver since 2016. As of 2018, I am us
 - **Handoff** sometimes doesn't work as expected.
 	- Broadcom BCM94352Z isn't fully compatible with macOS. I recommend using other wireless card.
 - Everything else works well.
+
+## Pictures
+<div align="center">
+    <a href="https://raw.githubusercontent.com/thedavesky/lenovo-y700-hackintosh/assets/images/workplace.jpg">
+        <img src="https://raw.githubusercontent.com/thedavesky/lenovo-y700-hackintosh/assets/images/workplace.jpg" alt="Workplace">
+    </a>
+</div>
+<div align="center">
+    <a href="https://raw.githubusercontent.com/thedavesky/lenovo-y700-hackintosh/assets/images/about_this_mac.jpg">
+        <img src="https://raw.githubusercontent.com/thedavesky/lenovo-y700-hackintosh/assets/images/about_this_mac.jpg" alt="About this mac">
+    </a>
+</div>
 
 ## Author
 Copyright ⓒ 2021 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
